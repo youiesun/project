@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-container{
+   color: white;
+   display: flex;
+}
+.temp{
+    font-size: 4.5rem;
+    margin-right: 1rem;
+}
+.time_location{
+    font-size: 2rem;
+}
+.condition{
+    font-size: 1.2rem;
+}
+#search{
+    padding: 0.6rem;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+}
+#input::placeholder{
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    outline: none;
+}
+form{
+    margin-left: 2.5rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
